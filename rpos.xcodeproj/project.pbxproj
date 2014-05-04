@@ -22,6 +22,7 @@
 		60339672191663C70079102B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60339651191663C70079102B /* UIKit.framework */; };
 		6033967A191663C70079102B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60339678191663C70079102B /* InfoPlist.strings */; };
 		6033967C191663C70079102B /* rposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6033967B191663C70079102B /* rposTests.m */; };
+		60339687191665450079102B /* xposViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60339686191665450079102B /* xposViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		60339677191663C70079102B /* rposTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rposTests-Info.plist"; sourceTree = "<group>"; };
 		60339679191663C70079102B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6033967B191663C70079102B /* rposTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rposTests.m; sourceTree = "<group>"; };
+		60339685191665450079102B /* xposViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xposViewController.h; sourceTree = "<group>"; };
+		60339686191665450079102B /* xposViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xposViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				6033965F191663C70079102B /* Main_iPhone.storyboard */,
 				60339662191663C70079102B /* Main_iPad.storyboard */,
 				60339665191663C70079102B /* ViewController.h */,
+				60339685191665450079102B /* xposViewController.h */,
+				60339686191665450079102B /* xposViewController.m */,
 				60339666191663C70079102B /* ViewController.m */,
 				60339668191663C70079102B /* Images.xcassets */,
 				60339654191663C70079102B /* Supporting Files */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60339687191665450079102B /* xposViewController.m in Sources */,
 				60339667191663C70079102B /* ViewController.m in Sources */,
 				6033965E191663C70079102B /* AppDelegate.m in Sources */,
 				6033965A191663C70079102B /* main.m in Sources */,
